@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  overflow: hidden;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  margin: 15px
+}
+h1{text-align: center;}
+p{text-align: center}
+img{text-align: center}
+
+.column {
+  float: left;
+  padding: 10px;}
+
+.column.middle {
+  width: 50%;}
+
+.column.side {
+  width: 25%;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+ .column.side, .column.middle {
+    width: 100%;}

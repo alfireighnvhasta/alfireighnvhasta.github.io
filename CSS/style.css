@@ -1,0 +1,23 @@
+body {background-color: blue;}
+
+h1{color: #80bfff;
+	margin-left: 15px;
+	font-size: 50px}
+
+
+h2{color: #8080ff;
+	margin-left: 15px; }
+	ol{color:#808080 }
+
+#nav{
+		border: 3px double #ff3333;
+		margin: 10px  5px  15px 20px;
+		padding: 5px 10px 5px 10px
+}
+
+#nav	a	{
+	text-decoration: none;
+	color: #80bfff;
+}
+p{color: #808080}
+
